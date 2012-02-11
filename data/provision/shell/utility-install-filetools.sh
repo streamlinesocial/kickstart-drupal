@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Installing File Tools (wget, unzip, zip...)"
+echo "Installing File Tools (wget, unzip, zip...) only as needed..."
 
 # if a file does not exist...
 if [ ! -f /usr/bin/wget ];
@@ -20,5 +20,3 @@ then
     echo "Installing zip"
     yum -y install zip
 fi
-
-yum clean all
