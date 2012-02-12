@@ -1,2 +1,3 @@
-./Vagrantfile
-./.vagrant
+Vagrantfile
+.vagrant
+!data/vagrant/*/*
